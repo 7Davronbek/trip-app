@@ -1,0 +1,1 @@
+export const TRIP_LANGUAGE = "TRIP_LANGUAGE" 
