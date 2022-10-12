@@ -29,11 +29,11 @@ export default function Navbar() {
             <li className='nav-item'><Link to='/about'>Biz haqimizda</Link></li>
             <li className='nav-item'><Link to='/contact'>Aloqalar</Link></li>
             <li className='nav-item langWrap'>
-              <a>
-                {localStorage.getItem()}
-              </a>
+              <h5 className='mb-5'>
+                {getLanguage() === 'en' ? <><i><img src="/en.svg" alt="" /></i> en</> : getLanguage() === 'uz' ? <><i><img src="/uz.svg" alt="" /></i> uz</> : <><i><img src="/ru.svg" alt="" /></i> ru</>}
+              </h5>
               <div className="wrap">
-              
+
                 <p onClick={() => changeLanguage('uz')}><i><img src="/uz.svg" alt="" /></i> uz</p>
                 <p onClick={() => changeLanguage('ru')}><i><img src="/ru.svg" alt="" /></i> ru</p>
                 <p onClick={() => changeLanguage('en')}><i><img src="/en.svg" alt="" /></i> en</p>
