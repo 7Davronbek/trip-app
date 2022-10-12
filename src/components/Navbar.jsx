@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="containerr">
         <div className="nav-menu">
           <Link to="/"><img src={Logo} alt="" /></Link>
-          
+
           <ul className='nav-list'>
             <li className='nav-item'><Link to="/">Asosiy</Link></li>
             <li className='nav-item'><Link to='/tours'>Turlar</Link></li>
@@ -16,7 +16,7 @@ export default function Navbar() {
             <li className='nav-item'><Link to='/blogs'>Bloglar</Link></li>
             <li className='nav-item'><Link to='/about'>Biz haqimizda</Link></li>
             <li className='nav-item'><Link to='/contact'>Aloqalar</Link></li>
-           
+
           </ul>
 
         </div>

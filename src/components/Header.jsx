@@ -11,7 +11,7 @@ import Malasia from '../images/malasia.jpg'
 export default function Header() {
   return (
     <div className='Header'>
-       <Carousel fade>
+      <Carousel fade>
         <Carousel.Item>
           <img
             className="d-block w-100 carusel-image"
